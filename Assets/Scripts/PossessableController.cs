@@ -34,11 +34,6 @@ public class PossessableController : MonoBehaviour
             if (Input.GetButtonDown("Split"))
             {
                 Unpossess();
-            }
-
-            if (Input.GetButtonDown("Interact"))
-            {
-                Unpossess();
                 GameObject spirit = Instantiate(gameController.spiritPrefab);
                 spirit.transform.position = transform.position;
             }
@@ -52,14 +47,14 @@ public class PossessableController : MonoBehaviour
     public void Possess()
     {
         isPossessed = true;
-        this.gameObject.GetComponent<Collider2D>().isTrigger = false;
+        //this.gameObject.GetComponent<Collider2D>().isTrigger = false;
         speed = defaultSpeed;
     }
 
     public void Unpossess()
     {
         isPossessed = false;
-        this.gameObject.GetComponent<Collider2D>().isTrigger = true;
+        //this.gameObject.GetComponent<Collider2D>().isTrigger = true;
         speed = 0f;
     }
 }

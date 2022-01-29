@@ -16,7 +16,7 @@ public class SpiritController : MonoBehaviour
 
     public bool spiritOn;
 
-    private PossessableController currentPossessable;
+    public GameObject currentPossessable;
 
     // Start is called before the first frame update
     void Start()
@@ -24,9 +24,6 @@ public class SpiritController : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
-
-        //Ignorer les collisions avec le joueur
-        Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), GetComponent<Collider2D>());
     }
 
     // Update is called once per frame
@@ -40,12 +37,18 @@ public class SpiritController : MonoBehaviour
             Destroy(this.gameObject);
         }
 
-        if (Input.GetButtonDown("Interact"))
+        if (Input.GetButtonDown("Split"))
         {
-            if(currentPossessable != null)
+            if (currentPossessable != null)
             {
-                currentPossessable.Possess();
-                Destroy(this.gameObject);
+                if (currentPossessable.tag == "Player")
+                {
+                    gameController.DestroySpirit();
+                } else if (currentPossessable.tag == "Possessable")
+                {
+                    currentPossessable.GetComponent<PossessableController>().Possess();
+                    Destroy(this.gameObject);
+                }
             }
         }
     }
@@ -57,19 +60,20 @@ public class SpiritController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Possessable")
+        Debug.Log("Collision");
+        if(collision.gameObject.tag == "Possessable" || collision.gameObject.tag == "Player")
         {
-            currentPossessable = collision.gameObject.GetComponent<PossessableController>();
-            Debug.Log("Armure détectée");
-        }
+            currentPossessable = collision.gameObject;
+            Debug.Log("Possession possible");
+        } 
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Possessable")
+        if (collision.gameObject.tag == "Possessable" || collision.gameObject.tag == "Player")
         {
             currentPossessable = null;
-            Debug.Log("Armure quittée");
+            Debug.Log("Plus de possession possible");
         }
     }
 }

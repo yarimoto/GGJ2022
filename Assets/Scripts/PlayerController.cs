@@ -27,20 +27,6 @@ public class PlayerController : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
-       
-        if (Input.GetButtonDown("Split"))
-        {
-            if (gameController.spiritOn)
-            {
-                gameController.spiritOn = false;
-                speed = defaultSpeed;
-            } else
-            {
-                gameController.spiritOn = true;
-                speed = 0;
-                SummonSpirit();
-            }
-        }
     }
 
     private void FixedUpdate()
@@ -48,9 +34,15 @@ public class PlayerController : MonoBehaviour
             body.velocity = new Vector2(horizontal * speed, vertical * speed);
     }
 
-    private void SummonSpirit()
+    public void SummonSpirit()
     {
         GameObject spirit = Instantiate(gameController.spiritPrefab);
         spirit.transform.position = transform.position;
+        speed = 0;
+    }
+
+    public void GetSpiritBack()
+    {
+        speed = defaultSpeed;
     }
 }
