@@ -9,16 +9,15 @@ public class PlayerController : MonoBehaviour
     float horizontal;
     float vertical;
 
+    GameController gameController;
+
     public float defaultSpeed = 2f;
     private float speed;
-
-    public bool spiritOn = false;
-
-    public GameObject spiritPrefab;
 
     // Start is called before the first frame update
     void Start()
     {
+        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
         body = GetComponent<Rigidbody2D>();
         speed = defaultSpeed;
     }
@@ -31,13 +30,13 @@ public class PlayerController : MonoBehaviour
        
         if (Input.GetButtonDown("Split"))
         {
-            if (spiritOn)
+            if (gameController.spiritOn)
             {
-                spiritOn = false;
+                gameController.spiritOn = false;
                 speed = defaultSpeed;
             } else
             {
-                spiritOn = true;
+                gameController.spiritOn = true;
                 speed = 0;
                 SummonSpirit();
             }
@@ -51,7 +50,7 @@ public class PlayerController : MonoBehaviour
 
     private void SummonSpirit()
     {
-        GameObject spirit = Instantiate(spiritPrefab);
+        GameObject spirit = Instantiate(gameController.spiritPrefab);
         spirit.transform.position = transform.position;
     }
 }
