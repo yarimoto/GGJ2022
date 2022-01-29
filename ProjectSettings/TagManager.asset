@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Spirit
   - Possessable
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX
