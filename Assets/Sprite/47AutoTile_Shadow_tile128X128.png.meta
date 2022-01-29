@@ -1,0 +1,1260 @@
+fileFormatVersion: 2
+guid: b7e530b71b9dbd944a8b7412fc8e9840
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8216952242011738436
+    second: 47AutoTile_Shadow_tile128X128_0
+  - first:
+      213: -5804382738696660561
+    second: 47AutoTile_Shadow_tile128X128_1
+  - first:
+      213: -7136568639507386245
+    second: 47AutoTile_Shadow_tile128X128_2
+  - first:
+      213: 1748162498730471898
+    second: 47AutoTile_Shadow_tile128X128_3
+  - first:
+      213: -4273877090004548994
+    second: 47AutoTile_Shadow_tile128X128_4
+  - first:
+      213: 6853030494748522440
+    second: 47AutoTile_Shadow_tile128X128_5
+  - first:
+      213: -5316381971554776272
+    second: 47AutoTile_Shadow_tile128X128_6
+  - first:
+      213: 4265876097873134279
+    second: 47AutoTile_Shadow_tile128X128_7
+  - first:
+      213: 2953975056635269125
+    second: 47AutoTile_Shadow_tile128X128_8
+  - first:
+      213: 7864890972048178257
+    second: 47AutoTile_Shadow_tile128X128_9
+  - first:
+      213: -3473565310463792331
+    second: 47AutoTile_Shadow_tile128X128_10
+  - first:
+      213: 8696592307639126603
+    second: 47AutoTile_Shadow_tile128X128_11
+  - first:
+      213: -8150554762429409252
+    second: 47AutoTile_Shadow_tile128X128_12
+  - first:
+      213: -8392043738706928864
+    second: 47AutoTile_Shadow_tile128X128_13
+  - first:
+      213: 5712747243748635983
+    second: 47AutoTile_Shadow_tile128X128_14
+  - first:
+      213: 8594041379275334024
+    second: 47AutoTile_Shadow_tile128X128_15
+  - first:
+      213: -4329769279558255951
+    second: 47AutoTile_Shadow_tile128X128_16
+  - first:
+      213: 5088730588537064923
+    second: 47AutoTile_Shadow_tile128X128_17
+  - first:
+      213: -5195700668470564916
+    second: 47AutoTile_Shadow_tile128X128_18
+  - first:
+      213: -8578602587075852187
+    second: 47AutoTile_Shadow_tile128X128_19
+  - first:
+      213: 2422733146938167029
+    second: 47AutoTile_Shadow_tile128X128_20
+  - first:
+      213: 8126990511690343457
+    second: 47AutoTile_Shadow_tile128X128_21
+  - first:
+      213: 6194176082800188714
+    second: 47AutoTile_Shadow_tile128X128_22
+  - first:
+      213: 1144976554103648780
+    second: 47AutoTile_Shadow_tile128X128_23
+  - first:
+      213: -3091572429366691479
+    second: 47AutoTile_Shadow_tile128X128_24
+  - first:
+      213: -828977282586328689
+    second: 47AutoTile_Shadow_tile128X128_25
+  - first:
+      213: 4361257435817791123
+    second: 47AutoTile_Shadow_tile128X128_26
+  - first:
+      213: -6071243002151939784
+    second: 47AutoTile_Shadow_tile128X128_27
+  - first:
+      213: 1864659126844697606
+    second: 47AutoTile_Shadow_tile128X128_28
+  - first:
+      213: -6964376495538345965
+    second: 47AutoTile_Shadow_tile128X128_29
+  - first:
+      213: -6345078834257284340
+    second: 47AutoTile_Shadow_tile128X128_30
+  - first:
+      213: -3620620291028074124
+    second: 47AutoTile_Shadow_tile128X128_31
+  - first:
+      213: -8769698303033720271
+    second: 47AutoTile_Shadow_tile128X128_32
+  - first:
+      213: 4709974025956519472
+    second: 47AutoTile_Shadow_tile128X128_33
+  - first:
+      213: -5398426407337157320
+    second: 47AutoTile_Shadow_tile128X128_34
+  - first:
+      213: 3607450220038474234
+    second: 47AutoTile_Shadow_tile128X128_35
+  - first:
+      213: -937713242706348901
+    second: 47AutoTile_Shadow_tile128X128_36
+  - first:
+      213: 6670752449447915805
+    second: 47AutoTile_Shadow_tile128X128_37
+  - first:
+      213: -2314221493667769165
+    second: 47AutoTile_Shadow_tile128X128_38
+  - first:
+      213: 170155768310720604
+    second: 47AutoTile_Shadow_tile128X128_39
+  - first:
+      213: -3900719042621818954
+    second: 47AutoTile_Shadow_tile128X128_40
+  - first:
+      213: -2015966296817904840
+    second: 47AutoTile_Shadow_tile128X128_41
+  - first:
+      213: -4478540188059322421
+    second: 47AutoTile_Shadow_tile128X128_42
+  - first:
+      213: 154495743787577708
+    second: 47AutoTile_Shadow_tile128X128_43
+  - first:
+      213: -6000892476200184030
+    second: 47AutoTile_Shadow_tile128X128_44
+  - first:
+      213: 7671954373675699135
+    second: 47AutoTile_Shadow_tile128X128_45
+  - first:
+      213: 1508441935301376730
+    second: 47AutoTile_Shadow_tile128X128_46
+  - first:
+      213: -6021435479236846736
+    second: 47AutoTile_Shadow_tile128X128_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe6a8e987587fd80800000000000000
+      internalID: -8216952242011738436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9939fe6a0b27fa0800000000000000
+      internalID: -5804382738696660561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7038fe22a0d5fc90800000000000000
+      internalID: -7136568639507386245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad13d7ac788b24810800000000000000
+      internalID: 1748162498730471898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_4
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72499c3e6320b4c0800000000000000
+      internalID: -4273877090004548994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_5
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7b7621deada1f50800000000000000
+      internalID: 6853030494748522440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_6
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bcf27a3ca6836b0800000000000000
+      internalID: -5316381971554776272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_7
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2ce8d95bf633b30800000000000000
+      internalID: 4265876097873134279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5001c16c9a0aef820800000000000000
+      internalID: 2953975056635269125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cbb1a4ba4b52d60800000000000000
+      internalID: 7864890972048178257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bafadf0ca6bcfc0800000000000000
+      internalID: -3473565310463792331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_11
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a893590a080b870800000000000000
+      internalID: 8696592307639126603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_12
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18d60780a963ee80800000000000000
+      internalID: -8150554762429409252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_13
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b15debea8798b80800000000000000
+      internalID: -8392043738706928864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_14
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45ba3bc951c74f40800000000000000
+      internalID: 5712747243748635983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_15
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881e6bce91b244770800000000000000
+      internalID: 8594041379275334024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1baf784c7c199e3c0800000000000000
+      internalID: -4329769279558255951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_17
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd8a6f428dce9640800000000000000
+      internalID: 5088730588537064923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc76d8025c925e7b0800000000000000
+      internalID: -5195700668470564916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_19
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568c810066ea2f880800000000000000
+      internalID: -8578602587075852187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_20
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe40d006f64f9120800000000000000
+      internalID: 2422733146938167029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_21
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124e54ecfced8c070800000000000000
+      internalID: 8126990511690343457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_22
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d9683445226f550800000000000000
+      internalID: 6194176082800188714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_23
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02bf7f0c16c3ef00800000000000000
+      internalID: 1144976554103648780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969f43e51478815d0800000000000000
+      internalID: -3091572429366691479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_25
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81c298bd81ee74f0800000000000000
+      internalID: -828977282586328689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_26
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e43fbe78c468c30800000000000000
+      internalID: 4361257435817791123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_27
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83158a708ac9ebba0800000000000000
+      internalID: -6071243002151939784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_28
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ca4c2b89990e910800000000000000
+      internalID: 1864659126844697606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_29
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3186b55e970995f90800000000000000
+      internalID: -6964376495538345965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_30
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03be3cfa60c1f7a0800000000000000
+      internalID: -6345078834257284340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_31
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47143b63709f0cdc0800000000000000
+      internalID: -3620620291028074124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13244547bd5cb4680800000000000000
+      internalID: -8769698303033720271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_33
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e647e0c603d5140800000000000000
+      internalID: 4709974025956519472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_34
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d949cd8cfe415b0800000000000000
+      internalID: -5398426407337157320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_35
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af94c4eacdc301230800000000000000
+      internalID: 3607450220038474234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_36
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94fe4326c29cf2f0800000000000000
+      internalID: -937713242706348901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_37
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11f8e57206439c50800000000000000
+      internalID: 6670752449447915805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_38
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4db5210db32efd0800000000000000
+      internalID: -2314221493667769165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_39
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58e4ae05c38c5200800000000000000
+      internalID: 170155768310720604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7bce792bcddd9c0800000000000000
+      internalID: -3900719042621818954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_41
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83352078559d504e0800000000000000
+      internalID: -2015966296817904840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_42
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7b9626d6709d1c0800000000000000
+      internalID: -4478540188059322421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_43
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61b4c77f01e42200800000000000000
+      internalID: 154495743787577708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_44
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22716c4461c88bca0800000000000000
+      internalID: -6000892476200184030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_45
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbc1f7ead1487a60800000000000000
+      internalID: 7671954373675699135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_46
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adaf0f5b2ff0fe410800000000000000
+      internalID: 1508441935301376730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47AutoTile_Shadow_tile128X128_47
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b5726a5509f6ca0800000000000000
+      internalID: -6021435479236846736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
