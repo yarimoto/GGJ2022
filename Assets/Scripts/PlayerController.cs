@@ -51,6 +51,7 @@ public class PlayerController : MonoBehaviour
 
     private void SummonSpirit()
     {
-        Instantiate(spiritPrefab, this.transform);
+        GameObject spirit = Instantiate(spiritPrefab);
+        spirit.transform.position = transform.position;
     }
 }

@@ -19,12 +19,13 @@ public class SpiritController : MonoBehaviour
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
-        player = GameObject.FindGameObjectsWithTag("Player")[0].GetComponent<PlayerController>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(body.velocity);
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
 
