@@ -7,6 +7,9 @@ public class PressurePlateController : MonoBehaviour
     public bool isPressed = false;
     public DoorController linkedDoor;
 
+    public GameObject pressedImg;
+    public GameObject notpressedImg;
+
     private int objects = 0;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -18,6 +21,8 @@ public class PressurePlateController : MonoBehaviour
             {
                 isPressed = true;
                 linkedDoor.AddPlate();
+                pressedImg.SetActive(true);
+                notpressedImg.SetActive(false);
             }
         }
     }
@@ -31,6 +36,8 @@ public class PressurePlateController : MonoBehaviour
             {
                 isPressed = false;
                 linkedDoor.RemovePlate();
+                pressedImg.SetActive(false);
+                notpressedImg.SetActive(true);
             }
         }
     }
