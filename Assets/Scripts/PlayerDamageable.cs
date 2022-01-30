@@ -21,6 +21,7 @@ public class PlayerDamageable : MonoBehaviour
         {
             Debug.Log("ded");
             // Dead
+            GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>().SetGameOver();
         }
     }
 }
