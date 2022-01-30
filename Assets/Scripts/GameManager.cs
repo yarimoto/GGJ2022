@@ -6,11 +6,7 @@ public class GameManager : MonoBehaviour
 {
     bool isGameOver = false;
     public GameObject gameOverUi;
-
-    // Update is called once per frame
-    void Update()
-    {
-    }
+    public GameObject winScreenUi;
 
     public void SetGameOver()
     {
@@ -22,5 +18,11 @@ public class GameManager : MonoBehaviour
     public bool IsInGameOver()
     {
         return isGameOver;
+    }
+
+    public void SetLevelDone()
+    {
+        Time.timeScale = 0f;
+        winScreenUi.SetActive(true);
     }
 }
