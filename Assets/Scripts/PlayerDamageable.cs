@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerDamageable : MonoBehaviour
 {
+    public Slider healthSlider;
     public int maxHealth = 3;
     private int health;
 
@@ -11,16 +13,15 @@ public class PlayerDamageable : MonoBehaviour
     void Start()
     {
         health = maxHealth;
+        healthSlider.value = health;
     }
 
     public void TakeDamage(int dmg)
     {
         health -= dmg;
-        Debug.Log(health);
+        healthSlider.value = health;
         if (health <= 0)
         {
-            Debug.Log("ded");
-            // Dead
             GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>().SetGameOver();
         }
     }
