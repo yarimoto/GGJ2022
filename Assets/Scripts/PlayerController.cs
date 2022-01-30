@@ -27,6 +27,12 @@ public class PlayerController : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
+
+        //Se tourner vers la souris
+        Vector2 positionOnScreen = Camera.main.WorldToViewportPoint(transform.position);
+        Vector2 mouseOnScreen = (Vector2)Camera.main.ScreenToViewportPoint(Input.mousePosition);
+        float angle = AngleBetweenTwoPoints(positionOnScreen, mouseOnScreen);
+        transform.rotation = Quaternion.Euler(new Vector3(0f, 0f, angle + 180f));
     }
 
     private void FixedUpdate()
@@ -44,5 +50,9 @@ public class PlayerController : MonoBehaviour
     public void GetSpiritBack()
     {
         speed = defaultSpeed;
+    }
+    float AngleBetweenTwoPoints(Vector3 a, Vector3 b)
+    {
+        return Mathf.Atan2(a.y - b.y, a.x - b.x) * Mathf.Rad2Deg;
     }
 }
