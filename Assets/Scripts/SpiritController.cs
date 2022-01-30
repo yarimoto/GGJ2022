@@ -48,6 +48,9 @@ public class SpiritController : MonoBehaviour
                 {
                     currentPossessable.GetComponent<PossessableController>().Possess();
                     Destroy(this.gameObject);
+                } else if (currentPossessable.tag == "Computer")
+                {
+                    currentPossessable.GetComponent<ComputerController>().Activate();
                 }
             }
         }
@@ -61,7 +64,7 @@ public class SpiritController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Collision");
-        if(collision.gameObject.tag == "Possessable" || collision.gameObject.tag == "Player")
+        if(collision.gameObject.tag == "Possessable" || collision.gameObject.tag == "Player" || collision.gameObject.tag == "Computer")
         {
             currentPossessable = collision.gameObject;
             Debug.Log("Possession possible");
@@ -70,7 +73,7 @@ public class SpiritController : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Possessable" || collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Possessable" || collision.gameObject.tag == "Player" || collision.gameObject.tag == "Computer")
         {
             currentPossessable = null;
             Debug.Log("Plus de possession possible");
