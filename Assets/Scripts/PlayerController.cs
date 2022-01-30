@@ -14,12 +14,15 @@ public class PlayerController : MonoBehaviour
     public float defaultSpeed = 2f;
     private float speed;
 
+    Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
         gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
         body = GetComponent<Rigidbody2D>();
         speed = defaultSpeed;
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -37,7 +40,8 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-            body.velocity = new Vector2(horizontal * speed, vertical * speed);
+        body.velocity = new Vector2(horizontal * speed, vertical * speed);
+        animator.SetBool("isWalking", body.velocity.magnitude > 0);
     }
 
     public void SummonSpirit()
