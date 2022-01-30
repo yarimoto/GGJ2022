@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7757738634437064835}
   - component: {fileID: 7757738634437064838}
   - component: {fileID: 7757738634437064839}
+  - component: {fileID: 8157711699373789129}
   m_Layer: 0
   m_Name: Computer
   m_TagString: Computer
@@ -139,6 +140,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isActivated: 0
   linkedDoor: {fileID: 0}
+--- !u!95 &8157711699373789129
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7757738634437064834}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a6df7b611407c3e429b2a2cf2d465f71, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7757738636019732745
 GameObject:
   m_ObjectHideFlags: 0
