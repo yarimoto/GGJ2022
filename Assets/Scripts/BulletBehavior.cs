@@ -20,4 +20,12 @@ public class BulletBehavior : MonoBehaviour
     {
         transform.position += direction.normalized * speed * Time.deltaTime;
     }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.CompareTag("Walls"))
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }

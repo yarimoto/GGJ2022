@@ -10,6 +10,8 @@ TagManager:
   - GameManager
   - Computer
   - TriggerZone
+  - Shield
+  - Walls
   layers:
   - Default
   - TransparentFX
