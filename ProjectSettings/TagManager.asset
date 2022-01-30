@@ -8,6 +8,8 @@ TagManager:
   - Possessable
   - PlayerBullet
   - GameManager
+  - Computer
+  - TriggerZone
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,6 @@ TagManager:
   - UI
   - Spirit
   - Obstacle
-  - 
   - 
   - 
   - 

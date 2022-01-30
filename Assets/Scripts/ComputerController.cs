@@ -7,6 +7,10 @@ public class ComputerController : MonoBehaviour
     public bool isActivated = false;
     public DoorController linkedDoor;
 
+    public GameObject onImg;
+    public GameObject offImg;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +30,13 @@ public class ComputerController : MonoBehaviour
         if (isActivated)
         {
             linkedDoor.AddPlate();
+            onImg.SetActive(true);
+            offImg.SetActive(false);
         } else
         {
             linkedDoor.RemovePlate();
+            onImg.SetActive(false);
+            offImg.SetActive(true);
         }
     }
 }
